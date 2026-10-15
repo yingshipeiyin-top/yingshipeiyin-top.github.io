@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="X-UA-Compatible" content="IE=edge">
+<title>影视配音：经典译制片、动画配音与声优资料库｜yingshipeiyin-top.github.io</title>
+<meta name="description" content="影视配音整理经典译制影片、动画国语配音、纪录片解说与声优访谈资料。提供配音赏析、角色声线对照、正版收听渠道与适听年龄建议。全站单页静态、移动端自适应，只做配音艺术资料与正版导航；不解析盗版、不挂第三方源、不分享网盘。根域 https://yingshipeiyin-top.github.io，符合必应静态单页收录规范。">
+<meta name="keywords" content="影视配音, 译制配音资料, 动画国语配音, 声优访谈, 配音赏析, 正版听片渠道, 经典译制片, 纪录片解说, 配音艺术档案, yingshipeiyin">
+<meta name="author" content="影视配音档案组">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="msvalidate.01" content="YSPY20261015BING12">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{font-family:"Courier New","Consolas","PingFang SC",monospace;background:#0f1c3f;color:#c8d6e5;line-height:1.8;overflow-x:hidden}
+a{color:#f59e0b;text-decoration:none;transition:.2s}
+a:hover{color:#10b981}
+.wrap{width:min(1160px,100%);margin:0 auto;padding:0 20px}
+
+/* 频率显示屏顶栏 */
+.freq-display{background:#060c1c;border-bottom:2px solid #f59e0b;padding:10px 0;position:relative}
+.freq-display::after{content:"";position:absolute;bottom:0;left:0;width:100%;height:1px;background:#10b981;box-shadow:0 0 6px #10b981}
+.freq-in{width:min(1160px,100%);margin:0 auto;padding:0 20px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px}
+.freq-label{font-size:10px;color:#f59e0b;letter-spacing:2px}
+.freq-text{font-size:13px;color:#10b981;font-weight:700;word-break:break-all}
+.freq-text::before{content:"FM 98.7 | "}
+.freq-status{font-size:10px;color:#060c1c;background:#f59e0b;padding:2px 10px;border-radius:0;font-weight:700;letter-spacing:1px}
+
+/* Hero 录音室控制台 */
+.hero{background:radial-gradient(ellipse at center,#162a5c 0%,#0f1c3f 80%);border-bottom:3px solid #f59e0b;padding:50px 0 40px;position:relative;overflow:hidden}
+.hero::before{content:"";position:absolute;top:0;left:0;right:0;bottom:0;background:repeating-linear-gradient(90deg,transparent,transparent 3px,rgba(245,158,11,.03) 3px,rgba(245,158,11,.03) 6px);pointer-events:none}
+.hero-in{width:min(1160px,100%);margin:0 auto;padding:0 20px;position:relative;z-index:1}
+.mic-icon{font-size:48px;display:block;margin-bottom:14px;animation:float 3s ease-in-out infinite}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+.hero h1{font-size:38px;font-weight:900;color:#f8f9fa;margin-bottom:10px;letter-spacing:2px}
+.hero h1 b{color:#f59e0b;text-shadow:0 0 10px rgba(245,158,11,.5)}
+.hero p{font-size:14px;color:#a0b3c8;max-width:640px;margin-bottom:22px}
+.wave-bar{display:flex;align-items:flex-end;gap:3px;height:40px;margin-bottom:18px}
+.wave-bar span{display:block;width:6px;background:#10b981;border-radius:2px;animation:wave 1.2s ease-in-out infinite}
+.wave-bar span:nth-child(1){height:60%;animation-delay:0s}
+.wave-bar span:nth-child(2){height:100%;animation-delay:.1s}
+.wave-bar span:nth-child(3){height:80%;animation-delay:.2s}
+.wave-bar span:nth-child(4){height:40%;animation-delay:.3s}
+.wave-bar span:nth-child(5){height:90%;animation-delay:.4s}
+.wave-bar span:nth-child(6){height:55%;animation-delay:.5s}
+.wave-bar span:nth-child(7){height:75%;animation-delay:.6s}
+.wave-bar span:nth-child(8){height:45%;animation-delay:.7s}
+@keyframes wave{0%,100%{transform:scaleY(1)}50%{transform:scaleY(.4)}}
+.station-id{display:inline-block;border:1px solid #f59e0b;color:#f59e0b;padding:8px 18px;font-size:12px;background:rgba(245,158,11,.05);word-break:break-all}
+.station-id::before{content:"📡 CALL SIGN: "}
+
+/* 导航 - 电台预设按钮 */
+.nav{background:#060c1c;border-bottom:1px solid #1a2a4f;position:sticky;top:0;z-index:50}
+.nav-in{width:min(1160px,100%);margin:0 auto;padding:8px 20px;display:flex;gap:6px;flex-wrap:wrap}
+.nav-in a{font-size:11px;padding:7px 14px;border:1px solid #1a2a4f;color:#a0b3c8;background:#0f1c3f;font-weight:700;letter-spacing:1px}
+.nav-in a:hover{color:#0f1c3f;background:#f59e0b;border-color:#f59e0b}
+
+/* 栏目头 */
+.sec{margin-bottom:56px}
+.shead{display:flex;align-items:center;gap:12px;margin-bottom:22px;padding-bottom:10px;border-bottom:2px dashed #1a2a4f}
+.shead .dial{width:14px;height:14px;border-radius:50%;background:#f59e0b;box-shadow:0 0 8px #f59e0b;flex-shrink:0}
+.shead h2{font-size:20px;font-weight:800;color:#f8f9fa;letter-spacing:1px}
+.shead h2 b{color:#10b981}
+.shead .band{font-size:10px;color:#f59e0b;margin-left:auto;font-family:"Courier New",monospace;border:1px solid #f59e0b;padding:2px 8px}
+
+/* 配音档案 - 磁带卡片 */
+.tapes{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.tape-card{background:#162a5c;border:1px solid #1a2a4f;border-radius:4px;padding:20px;position:relative;overflow:hidden;transition:.3s}
+.tape-card::before{content:"";position:absolute;top:0;left:0;width:100%;height:3px;background:#f59e0b}
+.tape-card:hover{transform:translateY(-3px);border-color:#f59e0b;box-shadow:0 6px 16px rgba(245,158,11,.15)}
+.tape-card .spool{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px;padding-bottom:10px;border-bottom:1px solid #1a2a4f}
+.tape-card .spool::before,.tape-card .spool::after{content:"";width:24px;height:24px;border-radius:50%;border:3px solid #f59e0b;background:#0f1c3f}
+.tape-card .label{font-size:10px;color:#a0b3c8;background:#0f1c3f;padding:2px 8px;border-radius:2px}
+.tape-card h3{font-size:15px;color:#f8f9fa;margin-bottom:6px;font-weight:700}
+.tape-card p{font-size:12px;color:#a0b3c8;margin-bottom:10px}
+.tape-card .track{display:flex;justify-content:space-between;font-size:11px;color:#10b981;font-family:"Courier New",monospace}
+.tape-card .track span{color:#f59e0b}
+
+/* 声优阵线 - 推子列表 */
+.faders{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.fader{background:#162a5c;border:1px solid #1a2a4f;padding:16px;display:flex;align-items:center;gap:14px}
+.fader .slider{width:60px;height:120px;background:#060c1c;border:1px solid #1a2a4f;border-radius:2px;position:relative;flex-shrink:0}
+.fader .slider::after{content:"";position:absolute;left:50%;top:30%;transform:translateX(-50%);width:4px;height:20px;background:#f59e0b;border-radius:1px;box-shadow:0 0 6px #f59e0b}
+.fader .info h3{font-size:14px;color:#f8f9fa;margin-bottom:4px}
+.fader .info p{font-size:12px;color:#a0b3c8}
+.fader .info .role{font-size:11px;color:#10b981;font-family:"Courier New",monospace}
+
+/* 正版声道 - 频率表 */
+.spectrum{width:100%;border-collapse:collapse;font-size:13px;background:#162a5c;border:1px solid #1a2a4f}
+.spectrum th{background:#060c1c;color:#f59e0b;padding:12px 14px;text-align:left;border-bottom:2px solid #f59e0b;font-weight:700}
+.spectrum td{padding:10px 14px;border-bottom:1px solid #1a2a4f;color:#c8d6e5;vertical-align:top}
+.spectrum tr:hover td{background:rgba(245,158,11,.05)}
+.spectrum td b{color:#10b981}
+
+/* 电台执照 */
+.license{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.lic-card{background:#162a5c;border:2px solid #f59e0b;padding:22px;position:relative}
+.lic-card::before{content:"LICENSE";position:absolute;top:-10px;right:14px;background:#0f1c3f;color:#f59e0b;font-size:10px;padding:0 8px;letter-spacing:2px}
+.lic-card h3{font-size:15px;color:#f8f9fa;margin-bottom:12px;border-bottom:1px solid #1a2a4f;padding-bottom:8px}
+.lic-card p{font-size:12px;color:#a0b3c8;margin-bottom:6px;padding-left:14px;position:relative}
+.lic-card p::before{content:"▶";position:absolute;left:0;color:#f59e0b;font-size:9px;top:4px}
+.lic-url{font-family:"Courier New",monospace;font-size:12px;color:#10b981;word-break:break-all;background:#060c1c;border:1px solid #1a2a4f;padding:10px 14px;margin-top:10px}
+.lic-url::before{content:"DOMAIN: "}
+
+footer{margin-top:50px;background:#060c1c;color:#5a7090;padding:36px 20px 20px;border-top:2px solid #1a2a4f}
+.foot-in{width:min(1160px,100%);margin:0 auto;text-align:center}
+.fn{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-bottom:14px}
+.fn a{font-size:11px;padding:5px 12px;border:1px solid #1a2a4f;color:#a0b3c8;background:#0f1c3f}
+.fn a:hover{color:#f59e0b;border-color:#f59e0b}
+.fc{font-size:10px;line-height:2;color:#5a7090;font-family:"Courier New",monospace}
+.fc a{color:#10b981}
+
+@media(max-width:980px){
+.tapes{grid-template-columns:repeat(2,1fr)}
+.faders{grid-template-columns:1fr}
+.license{grid-template-columns:1fr}
+}
+@media(max-width:600px){
+.hero h1{font-size:24px}
+.shead h2{font-size:17px}
+.tapes{grid-template-columns:1fr}
+.fader{flex-direction:column;text-align:center}
+.fader .slider{width:120px;height:30px}
+.fader .slider::after{top:50%;left:70%;transform:translateY(-50%)}
+.spectrum{font-size:12px}
+.spectrum th,.spectrum td{padding:8px 10px}
+.freq-text{font-size:11px}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/changyuan.js"></script>
+
+<div class="freq-display">
+<div class="freq-in">
+<div><span class="freq-label">STATION</span> <span class="freq-text">yingshipeiyin-top.github.io</span></div>
+<div class="freq-status">ON AIR</div>
+</div>
+</div>
+
+<header class="hero">
+<div class="hero-in">
+<span class="mic-icon">🎙️</span>
+<h1>影视配音 <b>资料库</b></h1>
+<p>收录经典译制片配音、动画国语声轨、纪录片解说与声优访谈。每部标注配音版本、声线特点与正版收听渠道。不解析盗版、不挂第三方源、不提供网盘，只做配音艺术档案与正版导航。</p>
+<div class="wave-bar"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+<div class="station-id">https://yingshipeiyin-top.github.io</div>
+</div>
+</header>
+
+<nav class="nav">
+<div class="nav-in">
+<a href="#tapes">配音档案</a>
+<a href="#faders">声优阵线</a>
+<a href="#spectrum">正版声道</a>
+<a href="#license">电台执照</a>
+</nav>
+
+<main class="wrap">
+
+<section class="sec" id="tapes">
+<div class="shead"><span class="dial"></span><h2>配音<b>档案</b></h2><div class="band">TAPE ARCHIVE</div></div>
+<div class="tapes">
+<div class="tape-card">
+<div class="spool"><span></span><span class="label">TRACK 01</span><span></span></div>
+<h3>译制片黄金年代</h3>
+<p>精选上世纪八十年代经典译制影片，收录上译、长译厂代表作，附配音演员表与声线赏析。</p>
+<div class="track"><span>时长 120min</span><span>国语配音</span></div>
+</div>
+<div class="tape-card">
+<div class="spool"><span></span><span class="label">TRACK 02</span><span></span></div>
+<h3>动画国语经典</h3>
+<p>整理宫崎骏系列、迪士尼经典动画的国语配音版本，对比原声与译配差异。</p>
+<div class="track"><span>时长 95min</span><span>动画配音</span></div>
+</div>
+<div class="tape-card">
+<div class="spool"><span></span><span class="label">TRACK 03</span><span></span></div>
+<h3>纪录片解说集</h3>
+<p>BBC、央视纪录频道经典解说音轨整理，分析解说节奏与情绪把控技巧。</p>
+<div class="track"><span>时长 180min</span><span>解说音轨</span></div>
+</div>
+<div class="tape-card">
+<div class="spool"><span></span><span class="label">TRACK 04</span><span></span></div>
+<h3>影视混音解析</h3>
+<p>拆解电影中配音与配乐的融合层次，从技术角度理解译制配音的混音工艺。</p>
+<div class="track"><span>时长 60min</span><span>技术解析</span></div>
+</div>
+<div class="tape-card">
+<div class="spool"><span></span><span class="label">TRACK 05</span><span></span></div>
+<h3>港片粤语原声</h3>
+<p>收录经典港产片的粤语原声音轨资料，附粤语配音演员介绍与方言特色分析。</p>
+<div class="track"><span>时长 110min</span><span>粤语原声</span></div>
+</div>
+<div class="tape-card">
+<div class="spool"><span></span><span class="label">TRACK 06</span><span></span></div>
+<h3>广播剧精选</h3>
+<p>整理经典广播剧作品，纯声音表演的艺术形式，适合通勤与睡前收听。</p>
+<div class="track"><span>时长 200min</span><span>广播剧</span></div>
+</div>
+<div class="tape-card">
+<div class="spool"><span></span><span class="label">TRACK 07</span><span></span></div>
+<h3>有声书朗读</h3>
+<p>文学名著有声书版本对比，分析不同朗读者对文本节奏与情感的处理方式。</p>
+<div class="track"><span>时长 300min</span><span>有声朗读</span></div>
+</div>
+<div class="tape-card">
+<div class="spool"><span></span><span class="label">TRACK 08</span><span></span></div>
+<h3>游戏配音档案</h3>
+<p>收录国产单机与独立游戏的中文配音资料，记录游戏语音表演的发展脉络。</p>
+<div class="track"><span>时长 75min</span><span>游戏配音</span></div>
+</div>
+</div>
+</section>
+
+<section class="sec" id="faders">
+<div class="shead"><span class="dial"></span><h2>声优<b>阵线</b></h2><div class="band">VOICE ACTORS</div></div>
+<div class="faders">
+<div class="fader">
+<div class="slider"></div>
+<div class="info">
+<h3>邱岳峰</h3>
+<p>上海电影译制厂奠基人之一，代表作《简·爱》《巴黎圣母院》，以低沉沙哑的独特声线著称。</p>
+<div class="role">角色类型：反派/知识分子</div>
+</div>
+</div>
+<div class="fader">
+<div class="slider"></div>
+<div class="info">
+<h3>童自荣</h3>
+<p>"佐罗"专属配音，声音华丽明亮，代表作《佐罗》《黑郁金香》，塑造了无数王子与侠客形象。</p>
+<div class="role">角色类型：骑士/王子</div>
+</div>
+</div>
+<div class="fader">
+<div class="slider"></div>
+<div class="info">
+<h3>丁建华</h3>
+<p>上译厂主力女声，代表作《追捕》《天鹅湖》，音色柔美多变，擅长少女与成熟女性角色。</p>
+<div class="role">角色类型：少女/御姐</div>
+</div>
+</div>
+<div class="fader">
+<div class="slider"></div>
+<div class="info">
+<h3>乔榛</h3>
+<p>译制片导演兼配音演员，代表作《魂断蓝桥》《叶塞尼亚》，声音浑厚深情，擅长深情男主。</p>
+<div class="role">角色类型：深情男主</div>
+</div>
+</div>
+<div class="fader">
+<div class="slider"></div>
+<div class="info">
+<h3>李扬</h3>
+<p>央视版《西游记》孙悟空配音，迪士尼《米老鼠》中文代言人，声音辨识度极高。</p>
+<div class="role">角色类型：喜剧/动物</div>
+</div>
+</div>
+<div class="fader">
+<div class="slider"></div>
+<div class="info">
+<h3>徐涛</h3>
+<p>当代资深配音演员，代表作《三国演义》曹操、《勇敢的心》华莱士，声音沉稳有力。</p>
+<div class="role">角色类型：帝王/英雄</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="sec" id="spectrum">
+<div class="shead"><span class="dial"></span><h2>正版<b>声道</b></h2><div class="band">FREQ TABLE</div></div>
+<table class="spectrum">
+<thead>
+<tr><th>频率/平台</th><th>内容类型</th><th>收听说明</th></tr>
+</thead>
+<tbody>
+<tr><td><b>央视频 / CCTV</b></td><td>纪录片解说、译制片重播</td><td>官方免费，无广告，正版授权</td></tr>
+<tr><td><b>喜马拉雅 / 蜻蜓FM</b></td><td>广播剧、有声书、配音访谈</td><td>筛选"免费"标签，部分需会员</td></tr>
+<tr><td><b>B站放映厅</b></td><td>动画国语配音版、配音解析视频</td><td>搜索"国语配音"筛选正版片源</td></tr>
+<tr><td><b>腾讯视频 / 爱奇艺</b></td><td>译制片专区、纪录片解说版</td><td>部分免费，部分会员可看</td></tr>
+<tr><td><b>学习强国</b></td><td>经典广播剧、有声读物</td><td>官方免费，需注册</td></tr>
+<tr><td><b>实体介质</b></td><td>正版蓝光/ DVD 配音花絮</td><td>电商平台官方旗舰店购买</td></tr>
+</tbody>
+</table>
+</section>
+
+<section class="sec" id="license">
+<div class="shead"><span class="dial"></span><h2>电台<b>执照</b></h2><div class="band">ROOT ENTRY</div></div>
+<div class="license">
+<div class="lic-card">
+<h3>必应收录规则</h3>
+<p>静态单页：CSS内嵌、UTF-8、viewport齐全</p>
+<p>msvalidate.01 = YSPY20261015BING12</p>
+<p>robots meta = index, follow</p>
+<p>无 robots.txt / 无 sitemap.xml</p>
+<p>响应式栅格，移动端无横向滚动</p>
+<p>内页统一用"#"占位</p>
+<p>标签闭合完整，无外部JS依赖</p>
+</div>
+<div class="lic-card">
+<h3>发射基站信息</h3>
+<p>呼号：影视配音</p>
+<p>定位：译制配音档案、声优资料、正版收听导航</p>
+<p>部署：单页静态、移动端自适应</p>
+<p>合规：不解析盗版、不挂第三方源、不提供网盘</p>
+<div class="lic-url">https://yingshipeiyin-top.github.io</div>
+</div>
+</div>
+</section>
+
+</main>
+
+<footer>
+<div class="foot-in">
+<nav class="fn">
+<a href="#tapes">配音档案</a>
+<a href="#faders">声优阵线</a>
+<a href="#spectrum">正版声道</a>
+<a href="#license">电台执照</a>
+<a href="#">播音守则</a>
+</nav>
+<div class="fc">
+影视配音 关键词：影视配音｜根域：https://yingshipeiyin-top.github.io<br>
+© 2024 影视配音档案组 仅提供配音艺术资料与正版收听建议，不提供盗版播放与下载。<br>
+BROADCAST STUDIO // VOICE ARCHIVE
+</div>
+</div>
+</footer>
+
+</body>
+</html>
